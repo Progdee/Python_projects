@@ -19,6 +19,7 @@ print(
 )
 gn = int(input(""))
 while gn != (secret_number):
-    print("Ha ha! You're stuck in my loop!")
-    gn = input("Try again: ")
-print("Well done, muggle! You are free now.")
+    print(input("Ha ha! You're stuck in my loop!" 
+                " Try again! "))
+    continue
+    print("Well done, muggle! You are free now.")
