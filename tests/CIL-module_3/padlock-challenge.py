@@ -46,3 +46,35 @@ def challenge_3():
     print("Code:")
     print(code)
 challenge_3()
+def challenge_4():
+    #Padlock Code Challenge - www.101computing.net/padlock-code-challenge-2/
+
+    code = 0
+#Update the code below to solve this challenge
+    for digit1 in range(0,10):
+        for digit2 in range(0,10):
+            for digit3 in range(0,10):
+                if (digit1 + digit2 + digit3) % 2 == 1:
+                    code += 1
+       
+
+
+    print("Code:")
+    print(code)
+challenge_4()
+
+def challenge_5():
+    #Padlock Code Challenge - www.101computing.net/padlock-code-challenge-2/
+
+    code = 0
+#Update the code below to solve this challenge
+    for digit1 in range(0,10):
+        for digit2 in range(0,10):
+            for digit3 in range(0,10):
+                equal = (digit1 == digit2) or (digit2 == digit3) or (digit1 == digit3)
+                if equal:
+                    code += 1
+
+    print("Code:")
+    print(code)
+challenge_5()
